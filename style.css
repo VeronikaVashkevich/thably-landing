@@ -272,12 +272,21 @@ h1 {
     text-align: center;
 }
 
-.features {
+#features {
+    margin-top: 190px;
+}
 
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .feature {
-
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-logo {
@@ -291,6 +300,8 @@ h1 {
     font-size: 30px;
     line-height: 35px;
     color: #000000;
+    margin-top: 26px;
+    text-align: center;
 }
 
 .light-blue-bg {
@@ -315,4 +326,87 @@ h1 {
 
 .purple-bg {
     background: #D399FF;
+}
+
+#voices {
+    margin-top: 160px;
+    padding-bottom: 50px;
+    background: linear-gradient(180deg, #FFFFFF 50% , #F0F0F0 50%);
+}
+
+.voices {
+    margin-top: 102px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.voice {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+}
+
+.voice-quote {
+    margin-top: 35px;font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.voice-name, .discover-link {
+    margin-top: 40px;
+}
+
+.voice-name, .voice-job {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.voice-job {
+    margin-top: 2px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    margin: 9px auto 88px;
+}
+
+.form-body {
+    width: 366px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas:
+        "firstName lastName"
+        "email email"
+        "button button";
+}
+
+.first-name {
+    grid-area: firstName;
+    text-align: left;
+}
+
+.first-name input, .last-name input {
+    width: 153px;
+}
+
+.last-name {
+    grid-area: lastName;
+    text-align: right;
+}
+
+.email {
+    grid-area: email;
+    text-align: center;
+}
+
+.button {
+    grid-area: button;
+    text-align: center;
 }
