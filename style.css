@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 73%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav, .icons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.nav {
+    justify-content: start;
+}
+
+.icons {
+    justify-content: end;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    margin-right: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+
+.icon {
+    margin-left: 29px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+#preview {
+    background: #F0EFEB;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+    padding-top: 9px;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 90px 0 90px 24px;
+
+}
+
+.picture {
+    margin-right: -140px;
+}
+
+.preview-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 42px;
+}
+
+.shop-now {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 8px 23px;
+    background: #000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    margin-top: 26px;
+}
+
+#guides {
+    margin-top: 60px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    width: 632px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-text-top {
+    margin-top: 27px;
+}
+
+#sellers {
+    margin-top: 90px;
+}
+
+.section-text-bottom {
+    margin-top: 47px;
+}
+
+.sellers {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.seller {
+    display: flex;
+    flex-direction: column;
+    width: 309px;
+}
+
+.seller-pic img{
+    width: 100%;
+}
+
+.seller-name {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 27px;
+}
+
+.seller-price {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 17px;
+}
+
+.seller-cart {
+    text-align: center;
+}
+
+.seller-cart .link {
+    margin-top: 10px;
+}
+
+.link {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: inline-block;
+}
+
+.guide {
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+
+.guide-title {
+    display: inline-block;
+}
+
+.guide-people {
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.guide-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.guide-text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 31px;
+    margin-bottom: 35px;
+    width: 500px;
+}
+
+.guide-people, .guide-power {
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.guide-culture {
+    background: rgba(204, 204, 204, 0.6);
+}
+
+.guide {
+    display: flex;
+    flex-direction: row;
+}
+
+.guide-right {
+    justify-content: right;
+}
+
+.guide-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guide-desc-right {
+    margin-left: 50px;
+    align-items: start;
+}
+
+.guide-desc-left {
+    margin-right: 50px;
+}
+
+.guide-text-left, .guide-title-left, .link-left {
+    text-align: right;
+}
+
+.section-title-thin {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.features {
+
+}
+
+.feature {
+
+}
+
+.feature-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.light-blue-bg {
+    background: #21F7EC;
+}
+
+.dark-green-bg {
+    background: #33D3BC;
+}
+
+.dark-blue-bg {
+    background: #18A5C6;
+}
+
+.beige-bg {
+    background: #D38F62;
+}
+
+.red-bg {
+    background: #F94C43;
+}
+
+.purple-bg {
+    background: #D399FF;
+}
